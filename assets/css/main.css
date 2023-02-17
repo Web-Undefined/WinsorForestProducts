@@ -222,6 +222,10 @@ html {
     }
 }
 
+.contact-p {
+    margin-bottom: 0;
+}
+
 body {
     background-color: #fff;
     color: #888;
@@ -2057,7 +2061,7 @@ button.primary.accent1:hover,
 button.primary.accent1:focus,
 .button.primary.accent1:hover,
 .button.primary.accent1:focus {
-    background-color: #a17ec9 !important;
+    background-color: #b4a861 !important;
 }
 
 input[type="submit"].primary.accent1:active,
@@ -2065,7 +2069,7 @@ input[type="reset"].primary.accent1:active,
 input[type="button"].primary.accent1:active,
 button.primary.accent1:active,
 .button.primary.accent1:active {
-    background-color: #875ab9 !important;
+    background-color: #b4a861 !important;
 }
 
 input[type="submit"].primary.accent2,
@@ -2087,7 +2091,7 @@ button.primary.accent2:hover,
 button.primary.accent2:focus,
 .button.primary.accent2:hover,
 .button.primary.accent2:focus {
-    background-color: #85aef2 !important;
+    background-color: #b4a861 !important;
 }
 
 input[type="submit"].primary.accent2:active,
@@ -2095,7 +2099,7 @@ input[type="reset"].primary.accent2:active,
 input[type="button"].primary.accent2:active,
 button.primary.accent2:active,
 .button.primary.accent2:active {
-    background-color: #5790ee !important;
+    background-color: #b4a861 !important;
 }
 
 input[type="submit"].primary.accent3,
@@ -2117,7 +2121,7 @@ button.primary.accent3:hover,
 button.primary.accent3:focus,
 .button.primary.accent3:hover,
 .button.primary.accent3:focus {
-    background-color: #73c0e3 !important;
+    background-color: #b4a861 !important;
 }
 
 input[type="submit"].primary.accent3:active,
@@ -2125,7 +2129,7 @@ input[type="reset"].primary.accent3:active,
 input[type="button"].primary.accent3:active,
 button.primary.accent3:active,
 .button.primary.accent3:active {
-    background-color: #49acdb !important;
+    background-color: #b4a861 !important;
 }
 
 input[type="submit"].primary.accent4,
@@ -2133,7 +2137,7 @@ input[type="reset"].primary.accent4,
 input[type="button"].primary.accent4,
 button.primary.accent4,
 .button.primary.accent4 {
-    background-color: #67cfc9 !important;
+    background-color: #b4a861 !important;
     color: #ffffff !important;
 }
 
@@ -2147,7 +2151,7 @@ button.primary.accent4:hover,
 button.primary.accent4:focus,
 .button.primary.accent4:hover,
 .button.primary.accent4:focus {
-    background-color: #7ad5d0 !important;
+    background-color: #b4a861 !important;
 }
 
 input[type="submit"].primary.accent4:active,
@@ -2155,7 +2159,7 @@ input[type="reset"].primary.accent4:active,
 input[type="button"].primary.accent4:active,
 button.primary.accent4:active,
 .button.primary.accent4:active {
-    background-color: #54c9c2 !important;
+    background-color: #b4a861 !important;
 }
 
 @media screen and (max-width: 480px) {
@@ -5576,4 +5580,8 @@ body.is-preload #banner .inner {
         margin-left: 0;
         padding-left: 0;
     }
+}
+
+html {
+    scroll-behavior: smooth;
 }
