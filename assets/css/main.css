@@ -5581,7 +5581,3 @@ body.is-preload #banner .inner {
         padding-left: 0;
     }
 }
-
-html {
-    scroll-behavior: smooth;
-}

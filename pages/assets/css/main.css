@@ -4568,3 +4568,27 @@ body.is-navPanel-visible #navPanel {
 #six {
     padding-top: 2em;
 }
+.no-border {
+    border-bottom: 0 !important;
+}
+.full-circle {
+    border-radius: 100% !important;
+}
+.centered {
+    text-align: center;
+}
+
+.two-coulmns {
+    display: flex;
+}
+
+.padding-top {
+    padding-top: 4em;
+}
+
+.less-text {
+    max-width: 65ch;
+    display: block;
+    margin: 0 auto;
+    padding-top: 2em;
+}
